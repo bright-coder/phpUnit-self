@@ -1,0 +1,8 @@
+language: php
+version:
+  - 7.1
+before-install :
+  - composer self-update
+  - composer install
+script :
+  - php phpunit --bootstrap src/Greeting.php test/GreetingTest 
