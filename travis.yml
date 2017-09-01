@@ -1,6 +1,6 @@
 language: php
 version:
-  - 7.1
+  - 7.0
 before-install :
   - composer self-update
   - composer install
